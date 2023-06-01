@@ -95,7 +95,8 @@ input::placeholder, textarea::placeholder{ color: #915858;}
       color: #915858;
       background-color: #f5eeee;
       border: 3px solid #fad7d7;
-      border-radius: 25px;}
+      border-radius: 25px;
+      margin-bottom: 15px;}
 
 .btn:hover{ background-color: #d48888a1;
        box-shadow: 0 0 20px rgba(190, 107, 107, 0.4);}

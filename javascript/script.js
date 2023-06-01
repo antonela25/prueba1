@@ -5,5 +5,9 @@
       console.log("ingresa")}
    else { alert("usted ingresa a esta pagina bajo su responsabilidad")};
 
-  window.onbeforeunload= function(){
-     return "¡Atención!Estás abandonando comida con sabor. ¿salir de todas formas?";};
+
+ //CARTEL PARA ABANDONAR LA PAGINA 
+
+   window.onbeforeunload= function(){
+      return "¡Atención!Estás abandonando comida con sabor. ¿salir de todas formas?";};
+

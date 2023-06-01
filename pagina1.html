@@ -50,6 +50,7 @@
                   <textarea name="message" id="massage"  cols="35" cols="5" placeholder="Ingrese su pedido"></textarea>
                   <br> <br>
                   <input class="btn" type="submit" value="Enviar">
+                  <input class="btn" type="submit" value="salir de la pagina" onclick="cerrarse()" >
 
                   <input type="hidden" name="_next" value="http://127.0.0.1:5500/pagina1.html">
                   <input type="hidden" name="_catchap" value="false">
@@ -59,10 +60,10 @@
   <!--inicio section3 funcion java script para calcular envio-->
       <section class="calcular">
         <form> 
-            <h2>TE INVITAMOS A CALCULAR EL COSTO DE ENVIO PARA TU CIUDAD</h2>
+            <h2>ENVIOS DISPONIBLES PARA SAN NICOLÁS, ROSARIO, PERGAMINO Y RAMALLO.</h2>
             <div class="contacto-pedido">
             <label>ubicación del cliente</label>
-            <input type="text" id="ubicacion" name="ubicacion" required placeholder="Ingrese su ciudad">
+           <input type="text" id="ubicacion" name="ubicacion" required placeholder="Ingresa tu ciudad para conocer el costo de envio">
             <br><br>
             <input type="button" value="calcular Envio" onclick="calcularEnvio()">
            </form>
